@@ -6,3 +6,13 @@ body{
     padding: 10px;
     height: calc(100vh - 41px - 41px - 20px);
 }
+.rightnav{
+    background-color: cadetblue;
+    padding: 10px;
+}
+.rightnav ul li{
+    margin-bottom: 10px;
+}
+.rightnav ul li a{
+    color: white;
+}

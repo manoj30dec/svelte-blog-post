@@ -1,29 +1,31 @@
 <script>
     let {data, children} = $props();
-    console.log("in blog side bar", data)
+    // console.log("in blog side bar", data)
 </script>
 
 <div class="layout">
     <main>
         {@render children()}
     </main>
-    <aside>
+    <aside class="rightnav">
         <h2>More posts</h2>
         <ul>
-            {#each data as {slug, title}}
+            {#each data.summaries as {slug, title}}
             <li>
-                <a href="/blogs/{slug}">{title}</a>
+                <a href="/blogs/{slug}">{title.slice(0,20)}...</a>
             </li>
             {/each}
         </ul>
     </aside>
 </div>
 <style>
-    @media (min-width:640px){
-        .layout{
+     .layout{
             display: grid;
             gap: 2rem;
             grid-template-columns: 1fr 16em;
         }
-    }
+.rightnav h2{
+    margin: 0 0 10px 0;
+    padding: 0;
+}
 </style>
