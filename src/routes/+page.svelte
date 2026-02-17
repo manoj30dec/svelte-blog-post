@@ -1,5 +1,5 @@
 <script>
     let {data} = $props();
 </script>
-<h1>Welcome {data.visited ? 'friend':'stranger'}</h1>
+<h1>Welcome to home page {data.visited ? 'friend':'stranger'}</h1>
 

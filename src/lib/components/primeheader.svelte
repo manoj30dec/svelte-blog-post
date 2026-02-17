@@ -12,7 +12,13 @@
     </ul>
 </nav>
 <style>
-    ul{
+
+nav{
+            background-color: cadetblue;
+            padding: 10px;
+            color: white;
+        }
+ul{
         margin: 0;
         padding: 0;
         list-style: none;
@@ -24,5 +30,6 @@
       }
       ul li a{
         font-size: 18px;
+         color: white;
       }
 </style>

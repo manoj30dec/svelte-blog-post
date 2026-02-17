@@ -1,5 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
+	import Primefooter from '$lib/components/primefooter.svelte';
 	import Primeheader from '$lib/components/primeheader.svelte';
 
 	let { children } = $props();
@@ -10,6 +11,7 @@
 </svelte:head>
 
 <Primeheader></Primeheader>
-
-{@render children()}
-<h1>Footer</h1>
+<main class="main-content">
+	{@render children()}
+</main>
+<Primefooter></Primefooter>
