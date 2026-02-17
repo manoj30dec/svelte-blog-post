@@ -18,6 +18,9 @@
         <li>
              <a href="/slotexample">Slot Example</a>
         </li>
+        <li>
+             <a href="/contact-us">Contact Us</a>
+        </li>
     </ul>
 </nav>
 <style>
