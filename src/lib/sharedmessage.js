@@ -1,0 +1,1 @@
+export const message = 'This message imported from $lib/sharedmessage.js shared file';
