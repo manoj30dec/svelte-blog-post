@@ -7,6 +7,12 @@
             <a href="/about-us">About Us</a>
         </li>
         <li>
+            <a href="/users">Users List (Server Side Fetching)</a>
+        </li>
+        <li>
+            <a href="/comments">Comments (Client Side Fetching)</a>
+        </li>
+        <li>
              <a href="/blogs">Blog Post</a>
         </li>
     </ul>

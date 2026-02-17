@@ -4,7 +4,8 @@ body{
 }
 .main-content{
     padding: 10px;
-    height: calc(100vh - 41px - 41px - 20px);
+    min-height: calc(100vh - 41px - 41px - 20px);
+    height: auto;
 }
 .rightnav{
     background-color: cadetblue;
