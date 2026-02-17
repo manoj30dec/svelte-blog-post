@@ -15,6 +15,9 @@
         <li>
              <a href="/blogs">Blog Post</a>
         </li>
+        <li>
+             <a href="/slotexample">Slot Example</a>
+        </li>
     </ul>
 </nav>
 <style>
@@ -37,5 +40,6 @@ ul{
       ul li a{
         font-size: 18px;
          color: white;
+         text-decoration: none;
       }
 </style>

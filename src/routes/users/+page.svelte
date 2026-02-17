@@ -4,7 +4,7 @@
     // console.log(data)
 </script>
 <h1>Fetched Users List with server side rendering</h1>
-<table border="1" cellpadding="10" cellspacing="0">
+<table border="1" cellpadding="10" cellspacing="0" class="table table-bordered">
     <thead>
         <tr>
             <th>No.</th>

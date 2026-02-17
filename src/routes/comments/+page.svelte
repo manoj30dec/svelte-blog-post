@@ -23,7 +23,7 @@
 {#if loading}
   <p>Loading...</p>
 {:else}
-<table border="1" cellpadding="10" cellspacing="0">
+<table border="1" cellpadding="10" cellspacing="0" class="table table-bordered">
     <thead>
         <tr>
             <th>Id</th>
