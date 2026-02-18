@@ -21,6 +21,9 @@
         <li>
              <a href="/contact-us">Contact Us</a>
         </li>
+         <li>
+             <a href="/storeexample">Store Example</a>
+        </li>
     </ul>
 </nav>
 <style>
@@ -44,5 +47,7 @@ ul{
         font-size: 18px;
          color: white;
          text-decoration: none;
+         background-color:#0f4a4c;
+         padding: 4px 10px;
       }
 </style>
